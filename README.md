@@ -1,38 +1,48 @@
-\# GlitchWitch 🧙‍♀️
+\# GlitchWitch
 
 
 
-An XR Network Performance Analyzer with AI-powered insights. Built to analyze Wireshark packet captures and assess network readiness for VR/AR applications.
+An XR network performance analyzer I built to assess whether enterprise WiFi can actually handle VR/AR applications. It parses Wireshark packet captures and tells you what's going wrong.
 
 
 
-\## Features
+!\[Demo](demo.gif)
 
 
 
-\- \*\*Packet Analysis\*\*: Parses Wireshark CSV exports to extract network performance metrics
-
-\- \*\*VR Readiness Scoring\*\*: Evaluates jitter, latency, and retransmission rates against XR thresholds
-
-\- \*\*Traffic Anomaly Detection\*\*: Identifies timing spikes and network glitches that impact immersive experiences
-
-\- \*\*AI-Powered Insights\*\*: Integrates with Claude API to provide natural language explanations of network issues
-
-\- \*\*PDF Reports\*\*: Generates professional reports for documentation
+\## What It Does
 
 
 
-\## Tech Stack
+\- Analyzes Wireshark CSV exports for jitter, latency, retransmissions
+
+\- Scores network readiness for VR/AR (spoiler: most networks aren't ready)
+
+\- Flags timing spikes and anomalies that break immersive experiences
+
+\- Uses Claude API to explain network issues in plain language
+
+\- Generates PDF reports
 
 
 
-\- Python / FastAPI
+\## Built With
 
-\- Wireshark packet capture analysis
 
-\- Claude API for AI analysis
 
-\- HTML/CSS dashboard
+Python, FastAPI, Claude API, HTML/CSS
+
+
+
+\## Background
+
+
+
+I built this as a Research Assistant at Northeastern's XR Immersive Media Lab. We're analyzing Quest 3 headset performance on enterprise WiFi at Holmes Hall, and I needed a tool that could interpret packet captures faster than manually digging through Wireshark.
+
+
+
+My first real coding project. Seven years in telecom deploying submarine cables across Africa, but never wrote code until now.
 
 
 
@@ -40,17 +50,7 @@ An XR Network Performance Analyzer with AI-powered insights. Built to analyze Wi
 
 
 
-\*\*Grace Irungu\*\*  
+Grace Irungu  
 
-MS Telecommunication Networks, Northeastern University  
-
-Research Assistant, XR Immersive Media Lab
-
-
-
-\## Context
-
-
-
-Built as part of XR network performance research at Northeastern's Holmes Hall, analyzing Quest 3 headset performance on enterprise WiFi infrastructure.
+MS Telecommunication Networks, Northeastern University
 
