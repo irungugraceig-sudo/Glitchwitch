@@ -6,7 +6,7 @@ An XR network performance analyzer I built to assess whether enterprise WiFi can
 
 
 
-!\[Demo](demo.gif)
+!\[Demo](demo\_small.gif)
 
 
 
@@ -48,7 +48,7 @@ I built this as an Independent Research at Northeastern's XR Immersive Media Lab
 
 
 
-Grace Irungu  
+Grace Irungu
 
 MS Telecommunication Networks, Northeastern University
 
