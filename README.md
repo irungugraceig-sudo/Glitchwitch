@@ -38,11 +38,9 @@ Python, FastAPI, Claude API, HTML/CSS
 
 
 
-I built this as a Research Assistant at Northeastern's XR Immersive Media Lab. We're analyzing Quest 3 headset performance on enterprise WiFi at Holmes Hall, and I needed a tool that could interpret packet captures faster than manually digging through Wireshark.
+I built this as an Independent Research at Northeastern's XR Immersive Media Lab. We're analyzing Quest 3 headset performance on enterprise WiFi at Holmes Hall, and I needed a tool that could interpret packet captures faster than manually digging through Wireshark.
 
 
-
-My first real coding project. Seven years in telecom deploying submarine cables across Africa, but never wrote code until now.
 
 
 
