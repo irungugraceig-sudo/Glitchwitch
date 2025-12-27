@@ -1,54 +1,26 @@
-\# GlitchWitch
-
-
+﻿# GlitchWitch
 
 An XR network performance analyzer I built to assess whether enterprise WiFi can actually handle VR/AR applications. It parses Wireshark packet captures and tells you what's going wrong.
 
+![Demo](demo_small.gif)
 
+## What It Does
 
-!\[Demo](demo\_small.gif)
+- Analyzes Wireshark CSV exports for jitter, latency, retransmissions
+- Scores network readiness for VR/AR (spoiler: most networks aren't ready)
+- Flags timing spikes and anomalies that break immersive experiences
+- Uses Claude API to explain network issues in plain language
+- Generates PDF reports
 
-
-
-\## What It Does
-
-
-
-\- Analyzes Wireshark CSV exports for jitter, latency, retransmissions
-
-\- Scores network readiness for VR/AR (spoiler: most networks aren't ready)
-
-\- Flags timing spikes and anomalies that break immersive experiences
-
-\- Uses Claude API to explain network issues in plain language
-
-\- Generates PDF reports
-
-
-
-\## Built With
-
-
+## Built With
 
 Python, FastAPI, Claude API, HTML/CSS
 
-
-
-\## Background
-
-
+## Background
 
 I built this as an Independent Research at Northeastern's XR Immersive Media Lab. We're analyzing Quest 3 headset performance on enterprise WiFi at Holmes Hall, and I needed a tool that could interpret packet captures faster than manually digging through Wireshark.
 
+## Author
 
-
-
-
-\## Author
-
-
-
-Grace Irungu
-
+Grace Irungu  
 MS Telecommunication Networks, Northeastern University
-
